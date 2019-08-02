@@ -1,0 +1,186 @@
+#reg_head_bg{
+    background: #fff;
+    height:118px; 
+}
+#reg_header{
+    width:980px;
+    margin:0 auto;
+    padding:20px 0;
+}
+body{
+    background:#f8f8f8;
+}
+#reg_header>div:first-child{
+    float: left;
+}
+#reg_header>div:last-child{
+    float: right;
+    margin-top:19px;
+}
+#main{
+    border-top:1px solid #eee;
+}
+#reg_body{
+    width:980px;
+    margin:0 auto;
+}
+#reg_body>div{
+    margin-top:60px;
+    width:970px;
+    height:417px;
+    background: rgba(0,0,0,.2);
+    padding:5px;
+}
+#reg_body>div>div{
+    width:970px;
+    height:377px;
+    padding:20px 0;
+    background:#fff;
+}
+#reg_body>div>div>div:first-child{
+    width:619px;
+    height:377px;
+    border-right:1px solid #eee;
+    margin-left:40px;
+    float: left;
+}
+.regForm>div:first-child{
+  height:40px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 40px;
+}
+.regForm>div>a{
+  display: inline-block;
+  height:39px;
+  background: #f3f3f3;
+  border:1px solid #eee;
+  padding:0 40px;
+  color:#666;
+}
+.regForm>div>a.activeReg{
+    background: #fff;
+    border-bottom-color:#fff;
+    color:#008842;
+}
+.regbox{
+    width:619px;
+    height:306px;
+    margin-bottom: 10px;
+    float: left;
+}
+.regbox>ul>li{
+    float: left;
+    width:619px;
+    height:40px;
+    margin-bottom: 10px;
+}
+.regbox>ul>li>span{
+    font-size: 12px;
+    color:#666;
+}
+.regbox>ul>li>label{
+    float: left;
+    width:100px;
+    color:#999;
+    font-size: 14px;
+    text-align: right;
+    margin: 11px 5px 11px 0px;
+    padding-right:10px; 
+}
+.regbox>ul>li>label>i{
+    color:#008842;
+    margin-right: 5px;
+} 
+.regbox>ul>li>input{
+    margin-top: 6px;
+    margin-right:10px;
+}
+.regbox>ul>li:not(:nth-child(5))>input{
+    width:180px;
+    padding: 7px 34px 7px 8px;
+    color:#999;
+    font-size: 14px;
+    border:1px solid #ddd;
+}
+.regbox>ul>li:nth-child(4)>input{
+    width:60px;
+    padding: 7px 0px 7px 14px;
+}
+.regbox>ul>li:nth-child(4)>span>a{
+   font-size:12px;
+}
+.regbox>ul>li:nth-child(5)>div{
+    margin-top:6px;
+    font-size:12px;
+    height:16px;
+    line-height: 16px;
+}
+.regbox>ul>li:nth-child(5)>div>input{
+    margin-left:105px;
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+.regbox>ul>li:nth-child(5)>div>a{
+    font-size:12px;
+}
+.regbox>ul>li:nth-child(5)>div>a:hover{
+   color:#008842;
+}
+.regbox>ul>li:first-child>input{
+    background: url("../img/ren.png") no-repeat;
+    background-position: 200px 6px;
+}
+.regbox>ul>li:nth-child(2)>input,.regbox>ul>li:nth-child(3)>input{
+    background: url("../img/suo.png") no-repeat;
+    background-position: 200px 6px;
+}
+.regbox>ul>li:last-child{
+    margin-top: 6px;
+}
+.regbox>ul>li:last-child>button{
+    width:331px;
+    height:40px;
+    background: #008842;
+    border:0;
+    border-radius: 4px;
+    font-size: 18px;
+    color:#fff;
+    margin:0 8px; 
+    cursor: pointer;
+}
+.regbox>ul>li:last-child>button:hover{
+    background: #09946e;
+}
+.regRight{
+    width:230px;
+    margin-left: 40px;
+    float: right;
+    height:100px;
+    margin-top:90px;
+}
+.regRight>p{
+    height:50px;
+    font-size: 20px;
+    color:#666;
+    line-height: 50px;
+}
+.regRight>a{
+    display: inline-block;
+    width:145px;
+    height:35px;
+    background: #ffa100;
+    line-height: 35px;
+    border-radius: 4px;
+    font-size: 20px;
+    color:#fff;
+    text-align: center;
+    margin-top: 12px;
+}
+#reg_footer{
+    text-align: center;
+    font-size: 12px;
+    color:#666;
+    margin: 100px 0px;
+}

@@ -1,0 +1,114 @@
+#login_head_bg{
+    background: #fff;
+    height:118px; 
+}
+#login_header{
+    width:980px;
+    margin:0 auto;
+    padding:20px 0;
+}
+body{
+    background:#f8f8f8;
+}
+#login_header>div:first-child{
+    float: left;
+}
+#login_header>div:last-child{
+    float: right;
+    margin-top:19px;
+}
+#login_main{
+    width:980px;
+    margin:0 auto;
+}
+#login_main #login_Container{
+    float: right;
+    width:347px;
+    height:340px;
+    padding:18px 30px;
+    background: #fff;
+    margin:60px 0px  120px;
+}
+#login_Container>div{
+    height:35px;
+    margin-top: 5px;
+}
+#login_Container>div>p{
+   font-size: 25px;  
+   float: left;
+}
+#login_Container>div>a{
+    float: right;
+    font-size: 12px;
+    margin-top: 10px;
+    color:#08c;
+ }
+ #login_Container>div>a:hover{
+    color:#008842;
+ }
+ .login_inform{
+     width:355px;
+     margin-top: 35px;
+ }
+ .login_inform>ul>li{
+    float: left;
+    width:619px;
+    height:40px;
+    margin-bottom: 10px;
+}
+.login_inform>ul>li>span{
+    font-size: 12px;
+    color:#666;
+}
+ .login_inform>ul>li>label{
+    float: left;
+    width:10%;
+    color:#999;
+    font-size: 14px;
+    text-align: right;
+    margin: 11px 5px 11px -12px; 
+}
+ .login_inform>ul>li>input{
+    width:180px;
+    margin:6px 10px 0px 10px;
+    padding: 7px 34px 7px 8px;
+    color:#999;
+    font-size: 14px;
+    border:1px solid #ddd;
+ }
+ .login_inform>ul>li>span{
+     font-size: 12px;
+ }
+ .login_inform>ul>li:nth-child(3)>input{
+    width:60px;
+    padding: 7px 0px 7px 14px;
+ }
+ .login_inform>ul>li:nth-child(4){
+      width:300px;
+      margin-left:75px;
+      font-size: 12px;
+ }
+ .login_inform>ul>li:nth-child(4)>a:hover{
+    color:#008842;
+}
+.login_inform>ul>li:last-child>button{
+    width:292px;
+    height:40px;
+    background: #008842;
+    border:0;
+    border-radius: 4px;
+    font-size: 18px;
+    color:#fff;
+    margin-left:12px; 
+    cursor: pointer;
+}
+.login_inform>ul>li:last-child>button:hover{
+    background: #09946e;
+}
+#login_footer{
+    clear: both;
+    text-align: center;
+    font-size: 12px;
+    color:#666;
+    margin: 100px 0px;
+}
