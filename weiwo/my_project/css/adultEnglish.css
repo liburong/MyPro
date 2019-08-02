@@ -1,0 +1,50 @@
+a.adultEnglish{
+  text-decoration: none;
+  color:#0099d3;
+  border-right:1px solid #dee2e6;
+  padding:130px 50px 30px 50px;
+}
+a.busEng{
+  text-decoration: none;
+  color:#898989;
+  border-bottom: 1px solid #dee2e6;
+  padding:130px 50px 30px 50px;
+}
+.adultEnglish>h3,.busEng>h3{
+  font-size: 24px;
+}
+h5.adultClass{
+  color:#898989;
+}
+@media screen and (min-width:1200px){
+  .left_content{width:73%;}
+  .right_content{width:27%;}
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+  .left_content{width:73%;}
+  .right_content{width:27%;}
+}
+@media screen and (max-width:991px) and  (min-width:768px){
+  .left_content{width:100%;}
+  .right_content{width:45%; margin-left:180px;}
+  .name_input{
+    width:180px;
+  }
+  .select_study,.first_btn{
+		width:210px;
+  }
+}
+@media screen and (max-width:767px){
+  .left_content{width:100%;}
+  .right_content{width:100%;}
+}
+
+.pHeight p{
+  font-size: 14px;
+  line-height:30px;
+}
+.content::after{
+   display: block;
+   content:"";
+   clear: both;
+}

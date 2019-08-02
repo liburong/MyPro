@@ -1,0 +1,56 @@
+.bg_color{
+    height:156px;
+    background:#f2f2f2 ;
+   
+}
+.top_h{
+    height:116px;
+    width:256px;
+    border-radius:10px;
+
+}
+.notice{
+    border-radius:8px;
+    border:1px solid #c8c8c8;
+}
+@media screen and (max-width:767px){
+    .img_right{width:90%;}
+    .img_top{width:85%;}
+    .img_left{width:37%;}  
+}
+.middle_border{
+    border:1px solid #c8c8c8;
+}
+.school_add{
+    color: #3a1f62;
+}
+a.add-map{
+    text-decoration:none;
+}
+a.add-map:visited{
+    color:purple;
+}
+@media screen and (max-width:767px){
+    .west-border{
+        border-top: 1px solid #dee2e6;
+        border-bottom: 1px solid #dee2e6;
+    }
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"|";
+   
+}
+@media screen and (min-width:992px){
+    .P_ICP{text-align:center;}
+}
+.breadcrumb-item>a{
+    text-decoration:none;
+    color:#494949;
+}
+.breadcrumb-item>a:hover,.ICP:hover{
+    color:purple;
+}
+a.ICP{ 
+    text-decoration:none;
+    color:#494949;
+}

@@ -1,0 +1,41 @@
+.phone{
+	background-image: url(../../img/400.png);
+	background-repeat: no-repeat;
+	padding-left:135px;
+	padding-top:2px;
+}
+@media screen and (min-width:992px){
+	.img_width{
+		width:100%;
+	}
+}
+a.collect{
+	font-size: 14px;
+	text-decoration: none;
+}
+.navbar{
+	z-index: 2;
+}
+.navbar-brand{
+	font-size:1rem;
+}
+.navbar_bg{
+	background: #6d7a8c;
+	height:55px;
+}
+.first-page{
+	height:55px;
+	line-height: 55px;
+	background:#4c5663;
+}
+.first-page:visited,.first-page:hover{
+	background:#4c5663;
+}
+.nav-item{
+	height:55px;
+	line-height: 55px;
+	background:#6d7a8c;
+}
+.nav-item:hover{
+	background:#4c5663;
+}
