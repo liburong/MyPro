@@ -1,0 +1,36 @@
+<!--pages/list/list.wxml-->
+<!-- <text>pages/list/list.wxml</text> -->
+<!-- 引入自定义组价。'navbar-data'中navbar是自定义名字，决定了组件中'navbarData'的名字 -->
+<nav-bar navbar-data='{{nvabarData}}'></nav-bar>
+
+<view class='home-page' style='margin-top: {{height}}px'></view>
+ <view class="bgImg" style="background:url('/images/agan.jpg') no-repeat top center">
+ </view>
+ <view class="myTitle">
+   <view class="title">Top250</view>
+   <view class="subtitle">猫奴电影</view>
+ </view>
+<view class="main" wx:for="{{list}}" wx:key="index">
+  <view class="level">No.{{index+1}}</view>
+  <view class="myContainer">
+      <image src="{{item.images.small}}" class="movie-img"></image>
+      <view class="movie-info">
+          <view class="movie_title">{{item.title}}</view>
+           <view class="myScore">
+             <van-rate value="{{}}"/> 
+             <text class="movie-score">{{item.rating.average}}</text>
+          </view>
+          <view class="desc">
+            <text wx:for="{{item.genres}}" wx:key="index"> {{item}}  </text>
+            <text>/ {{item.directors[0].name}} / </text>
+            <text>{{item.casts[0].name}} {{item.casts[1].name}} </text>
+          </view>
+      </view>
+  </view>
+  <view class="moveStyle">风华绝代。</view>
+</view>
+
+ 
+
+
+ 
