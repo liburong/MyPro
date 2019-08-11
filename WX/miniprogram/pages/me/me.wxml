@@ -1,0 +1,38 @@
+<!--pages/me/me.wxml-->
+<!-- <text>pages/me/me.wxml</text> -->
+<!-- 引入自定义组价。'navbar-data'中navbar是自定义名字，决定了组件中'navbarData'的名字 -->
+<nav-bar navbar-data='{{nvabarData}}'></nav-bar>
+<view class='home-page' style='margin-top: {{height}}px'></view>
+<view class="bgImg" style="background:url('/images/green.jpg') no-repeat center center"></view>
+ <button class="myBtn">登录</button>
+ <van-cell
+  is-link
+  title="我的书影音"
+  value="登录查看"
+  link-type="navigateTo"
+  url="/pages/Index/index"
+/>
+ <van-cell
+  icon="tv-o"
+  is-link
+  title="观影分析"
+  value="立即开启"
+  link-type="navigateTo"
+  url="/pages/Index/index"
+/>
+<van-cell
+  icon="label-o"
+  is-link
+  title="读书分析"
+  value="立即开启"
+  link-type="navigateTo"
+  url="/pages/Index/index"
+/>
+<van-cell
+  icon="service-o"
+  is-link
+  title="音乐分析"
+  value="立即开启"
+  link-type="navigateTo"
+  url="/pages/Index/index"
+/>
