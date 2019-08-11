@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "van-rate": "vant-weapp/rate/index",
-    "nav-bar": "/components/navbar/nav"
-  }
-}
